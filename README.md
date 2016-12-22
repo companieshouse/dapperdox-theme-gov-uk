@@ -10,5 +10,5 @@ pass the following arguments to DapperDox:
 
 ```
 -theme-dir=/home/user/themes \
--theme-name=dapperdox-theme-gov-uk `
+-theme-name=dapperdox-theme-gov-uk \
 ```
