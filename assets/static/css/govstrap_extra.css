@@ -1,0 +1,88 @@
+html {
+    background-color: #fff;
+}
+body {
+    margin-bottom: 350px;
+}
+
+.footer {
+    margin-top: 0;
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: absolute;
+}
+
+.navbar a.navbar-brand {
+    background: url(/images/royal-coat-of-arms-white.png) no-repeat 0 5px;
+    padding-left: 55px;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: inherit;
+}
+.navbar a.navbar-brand span {
+    font-weight: 700;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar .row {
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.navbar li > a,
+.navbar li > span{
+    padding: 0 0 0 10px;
+    font-weight: inherit;
+}
+
+.main-body {
+    border-top: 10px solid #005ea5;
+}
+
+body {
+    padding-top: 43px;
+}
+
+.shadow {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.side-nav a,
+a.btn
+{
+    text-decoration: none;
+}
+
+.side-nav.affix {
+    position: relative;
+}
+.side-nav.affix, .side-nav.affix-bottom {
+    width: 99%;
+}
+
+a,
+a:link,
+a:visited {
+    color: #005ea5;
+}
+
+a.btn {
+    color: #fff;
+}
+
+.nav-sidebar a.nav-selected {
+    color: #000;
+}
+.nav-toggle.open {
+    color: inherit;
+}
+
+h1 {
+    font-size: 38px;
+}
