@@ -1,18 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 html {
     background-color: #fff;
 }
 body {
     margin-bottom: 350px;
+    padding-top: 43px;
 }
 
 .footer {
     margin-top: 0;
+	text-shadow: 0 0 0 rgba(0,0,0,0);
+    color: #34495e;
+    display: inline;
 }
 
 .navbar-fixed-bottom, .navbar-fixed-top {
     position: absolute;
 }
 
+#body-header {
+    border-top: 10px solid #005ea5;
+    padding: 10px 0 30px;
+    border-bottom: 1px solid #bfc1c3;
+}
+.navbar-header .api-title {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.rb {
+    border: 1px solid red;
+}
+@media (max-width: 900px) {
+    .navbar-header .api-title {
+        color: green;
+    }
+    #body-header {
+        margin-top: 22px;
+    }
+}
 .navbar a.navbar-brand {
     background: url(/images/royal-coat-of-arms-white.png) no-repeat 0 5px;
     padding-left: 55px;
@@ -27,25 +59,41 @@ body {
 .navbar {
     padding: 0;
 }
-
+.navbar > .container       .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+}
+.navbar li > a {
+    margin-top: 15px;
+}
 .navbar .row {
     margin-top: 0px;
     margin-bottom: 3px;
 }
+.navbar-right {
+    margin-top: 15px;
+}
 
-.navbar li > a,
-.navbar li > span{
+@media (min-width: 400px) {
+    .navbar-right {
+        float: right!important;
+        margin-right: -15px;
+    }
+}
+.userbar {
+    margin-top: 0;
+    margin-right: 0;
+}
+.navbar-nav > li {
+	text-shadow: 0 0 0 rgba(0,0,0,0);
+    color: #34495e;
+}
+#body-header > ul.navbar-nav > li > a {
     padding: 0 0 0 10px;
-    font-weight: inherit;
+    color: #005ea5;
+	text-shadow: 0 0 0 rgba(0,0,0,0);
 }
-
-.main-body {
-    border-top: 10px solid #005ea5;
-}
-
-body {
-    padding-top: 43px;
-}
+*/
 
 .shadow {
     -webkit-box-shadow: none;
@@ -86,3 +134,12 @@ a.btn {
 h1 {
     font-size: 38px;
 }
+pre, code, pre code, .attribute {
+    color: #008000;
+    font-size: 14px;
+}
+.deactivate {
+    display: none;
+    color: blue;
+}
+
