@@ -19,9 +19,14 @@ body {
     position: absolute;
 }
 
-#body-header {
+.body-header {
     border-top: 10px solid #005ea5;
-    padding: 10px 0 30px;
+}
+
+/* Add this style to your body header to expand it when you have content to go in the body header...*/
+.body-header-content {
+    min-height: 55px;
+    padding: 10px 0;
     border-bottom: 1px solid #bfc1c3;
 }
 .navbar-header .api-title {
@@ -41,7 +46,7 @@ body {
     .navbar-header .api-title {
         color: green;
     }
-    #body-header {
+    .body-header {
         margin-top: 22px;
     }
 }
@@ -88,12 +93,11 @@ body {
 	text-shadow: 0 0 0 rgba(0,0,0,0);
     color: #34495e;
 }
-#body-header > ul.navbar-nav > li > a {
-    padding: 0 0 0 10px;
+
+.body-header > ul.navbar-nav > li > a { 
     color: #005ea5;
 	text-shadow: 0 0 0 rgba(0,0,0,0);
 }
-*/
 
 .shadow {
     -webkit-box-shadow: none;
