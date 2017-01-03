@@ -10,7 +10,7 @@ body {
 
 .footer {
     margin-top: 0;
-	text-shadow: 0 0 0 rgba(0,0,0,0);
+	xxtext-shadow: 0 0 0 rgba(0,0,0,0);
     color: #34495e;
     display: inline;
 }
@@ -89,14 +89,13 @@ body {
     margin-top: 0;
     margin-right: 0;
 }
-.navbar-nav > li {
-	text-shadow: 0 0 0 rgba(0,0,0,0);
-    color: #34495e;
+.navbar-nav > li > a {
+    display: inline;
 }
 
 .body-header > ul.navbar-nav > li > a { 
     color: #005ea5;
-	text-shadow: 0 0 0 rgba(0,0,0,0);
+    padding-right: 0px;
 }
 
 .shadow {
@@ -144,6 +143,5 @@ pre, code, pre code, .attribute {
 }
 .deactivate {
     display: none;
-    color: blue;
 }
 
