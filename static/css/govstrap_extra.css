@@ -137,11 +137,26 @@ a.btn {
 h1 {
     font-size: 38px;
 }
-pre, code, pre code, .attribute {
+pre, code, pre code, td li, .attribute, td.resource {
     color: #008000;
-    font-size: 14px;
+    font-size: 15px;
 }
 .deactivate {
     display: none;
 }
+.form-control {
+    border: 2px solid;
+}
 
+/*
+.form-control:focus {
+    border: 2px solid black;
+    outline: 3px solid rgb(255, 191, 71);
+    outline-offset: 0;
+}
+*/
+input:focus, textarea:focus, select:focus, button:focus {
+    border: 2px solid black;
+    outline: 3px solid rgb(255, 191, 71);
+    outline-offset: 0;
+}
