@@ -445,6 +445,21 @@ pre {
     color: #454a4c;
 }
 
+.footer .navbar-nav a, .footer .navbar-nav a:focus, .footer .navbar-nav a:hover {
+    color: #454a4c;
+    font-size: 90%;
+    padding: 15px 8px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer .navbar-nav {
+    margin-left: 60px;
+}
+
+.footer .navbar-nav li {
+    padding-top: 0px;
+}
+
 .bg-primary > a, .bg-primary > a:hover, .bg-primary > a:focus, .bg-primary > a:active {
     color: #fff;
     text-decoration: none;
@@ -456,12 +471,12 @@ a.scroll-top {
 }
 
 .footer {
-    border-top: 5px solid #005ea5;
+    border-top: 10px solid #005ea5;
     background-color: #dee0e2;
-    min-height: 300px;
-    margin-top: 30px;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    min-height: 70px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .footer h2 {
